@@ -1,3 +1,5 @@
+Checking config that requires migration with `renovate-config-validator --strict` does not result in a correct error (exit 1) when using environment variables `RENOVATE_CONFIG_FILE`.
+
 ```sh
 pnpm i
 
